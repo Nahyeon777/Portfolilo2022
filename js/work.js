@@ -90,23 +90,23 @@ $(document).ready(function () {
             
             // 디자인 프로세스
             "./images/work/design/process/juice-process.jpg",
-            "../images/work/design/process/sam.jpg",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
+            "./images/work/design/process/sam.jpg",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
 
             // 퍼블 프로세스
-            "../images/work/publisher/process/sidmool.jpg",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/design/process/ex.png",
-            "../images/work/publisher/process/grooming.jpg",
+            "./images/work/publisher/process/sidmool.jpg",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/design/process/ex.png",
+            "./images/work/publisher/process/grooming.jpg",
         ]
 
 
