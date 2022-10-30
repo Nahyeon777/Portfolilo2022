@@ -89,7 +89,7 @@ $(document).ready(function () {
         let designer_content_img = [
             
             // 디자인 프로세스
-            "../images/work/design/process/juice-process.jpg",
+            "./images/work/design/process/juice-process.jpg",
             "../images/work/design/process/sam.jpg",
             "../images/work/design/process/ex.png",
             "../images/work/design/process/ex.png",
