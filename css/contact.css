@@ -1,0 +1,134 @@
+.header {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  position: absolute;
+}
+.header .logo {
+  flex-basis: 10.1%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.header .logo img {
+  display: block;
+}
+
+.contact {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-top: 227px;
+}
+.contact img {
+  margin: 0 auto;
+  display: block;
+}
+
+.sns {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 608px;
+}
+.sns .sns-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 833px;
+  margin: 0 auto;
+}
+.sns .sns-wrap a {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.sns .sns-wrap a img {
+  transition: 0.5s;
+}
+.sns .sns-wrap a:hover img {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1280px) {
+  .header .logo {
+    flex-basis: 12%;
+  }
+  .contact {
+    margin-top: 300px;
+  }
+  .contact img {
+    width: 550px;
+  }
+  .sns {
+    top: 650px;
+  }
+  .sns .sns-wrap {
+    width: 600px;
+  }
+  .sns .sns-wrap a {
+    width: 100px;
+    height: 100px;
+  }
+  .sns .sns-wrap a img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .header .logo img {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .logo {
+    align-items: center;
+  }
+  .header .logo img {
+    margin-left: 10px;
+    width: 90px;
+  }
+  .contact {
+    margin-top: 250px;
+  }
+  .contact img {
+    width: 400px;
+  }
+  .sns {
+    top: 500px;
+  }
+  .sns .sns-wrap {
+    width: 380px;
+  }
+  .sns .sns-wrap a {
+    width: 60px;
+    height: 60px;
+  }
+  .sns .sns-wrap a img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    height: 90px;
+  }
+  .header .logo img {
+    width: 80px;
+  }
+  .contact {
+    margin-top: 200px;
+  }
+  .contact img {
+    width: 300px;
+  }
+  .sns {
+    top: 400px;
+  }
+  .sns .sns-wrap {
+    width: 320px;
+  }
+}/*# sourceMappingURL=contact.css.map */

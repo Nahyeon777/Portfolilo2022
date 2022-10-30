@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="title" content="김나현-포트폴리오">
+    <meta name="description" content="상상하는 김나현입니다.">
+    <meta name="keyword" content="">
+    <meta name="author" content="김나현">
+    <meta name="content-language" content="kr">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- 링크 카톡으로 보낼 때 네모박스 컨텐츠 뜨는 것 -->
+    <meta property="og:image" content="">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:title" content="김나현-포트폴리오">
+    <meta property="og:description" content="상상하는 김나현입니다.">
+
+    <title>김나현-포트폴리오</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/work.css">
+
+    <!-- font -->
+    <!-- titan one -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <!-- noto-sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/dark.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/work.js"></script>
+</head>
+<body>
+    <div class="btn">
+        <div class="box">
+            <div id="dark" class="circle"></div>
+        </div>
+    </div>
+
+    
+    <!-- 공통 네비게이션 -->
+    <div class="nav">
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="wrap-work">
+        <div class="header">
+            <div class="title">
+                <p>WORK</p>
+            </div>
+            <div class="job-tab">
+                <ul>
+                    <li id="d-tab"><a href="#">Designer</a></li>
+                    <li id="tab-line"></li>
+                    <li id="p-tab"><a href="#">Publisher</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="job-content">
+            <div class="designer-content">
+                <div class="tabmenu">
+                    <ul>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">전체</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">브랜딩</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">편집디자인</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">3D 그래픽</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">기타</a>
+                        </li>
+                    </ul>
+                </div>  
+
+                <!-- 작업물들 -->
+                <div class="tab-wrap ">
+                    <!-- 전체 -->
+                    <div class="tab-content variable-width">
+                        <div class="item asparagus">
+                            <img src="images/work/design/juice.png" alt="design-item">
+                            <div class="txt">
+                                <p>햇살채움 ; 양구아스파라거스</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Package Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item toy">
+                            <img src="images/work/design/sori-nori.png" alt="design-item">
+                            <div class="txt">
+                                <p>Sori Nori ; 장난감 디자인</p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item soseo">
+                            <img src="images/work/design/soseo.png" alt="design-item">
+                            <div class="txt">
+                                <p>소서 ; 본디 마음을 펼치다</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Logo Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item sam">
+                            <img src="images/work/design/hellosam.png" alt="design-item">
+                            <div class="txt">
+                                <p>안녕하삼 ; 숙취해소제 로고</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Logo Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item cutery">
+                            <img src="images/work/design/cutery.png" alt="design-item">
+                            <div class="txt">
+                                <p>CUTERY ; 개인수저통 디자인</p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item steam-block">
+                            <img src="images/work/design/steam-block.png" alt="design-item">
+                            <div class="txt">
+                                <p>STEAM ; logo block</p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item apoint">
+                            <img src="images/work/design/apoint.png" alt="design-item">
+                            <div class="txt">
+                                <p>A point ; 1인 가구 술 브랜드</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Package Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item turtle">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>Turtle ; 라이프스타일 샵</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Environmental</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item reowon">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>려원족발 ; 상세페이지 디자인</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Detail page</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item haeurim">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>해우림 ;  상세페이지 디자인</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Detail page</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item cury">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>라바앤바바나(수정)</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Edit Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 브랜딩 -->
+                    <div class="tab-content variable-width">
+                        <div class="item asparagus">
+                            <img src="images/work/design/juice.png" alt="design-item">
+                            <div class="txt">
+                                <p>햇살채움 ; 양구아스파라거스</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Package Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item soseo">
+                            <img src="images/work/design/soseo.png" alt="design-item">
+                            <div class="txt">
+                                <p>소서 ; 본디 마음을 펼치다</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Logo Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item sam">
+                            <img src="images/work/design/hellosam.png" alt="design-item">
+                            <div class="txt">
+                                <p>안녕하삼 ; 숙취해소제 로고</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Logo Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item apoint">
+                            <img src="images/work/design/apoint.png" alt="design-item">
+                            <div class="txt">
+                                <p>A point ; 1인 가구 술 브랜드</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Package Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item turtle">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>Turtle ; 라이프스타일 샵</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Evironmental</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item reowon">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>려원족발 ; 상세페이지 디자인</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Detail page</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item haeurim">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>해우림 ;  상세페이지 디자인</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Detail page</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item cury">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>라바앤바바나(수정)</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Edit Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 편집디자인 -->
+                    <div class="tab-content variable-width">
+                        <div class="item asparagus">
+                            <img src="images/work/design/juice.png" alt="design-item">
+                            <div class="txt">
+                                <p>햇살채움 ; 양구아스파라거스</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Package Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item apoint">
+                            <img src="images/work/design/apoint.png" alt="design-item">
+                            <div class="txt">
+                                <p>A point ; 1인 가구 술 브랜드</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Package Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item reowon">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>려원족발 ; 상세페이지 디자인</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Detail page</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item haeurim">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>해우림 ;  상세페이지 디자인</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Detail page</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item cury">
+                            <img src="images/work/design/x.png" alt="design-item">
+                            <div class="txt">
+                                <p>라바앤바바나(수정)</p>
+                                <div class="hash">
+                                    <span># Branding</span>
+                                    <span># Edit Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3D 그래픽 -->
+                    <div class="tab-content variable-width">
+                        <div class="item toy">
+                            <img src="images/work/design/sori-nori.png" alt="design-item">
+                            <div class="txt">
+                                <p>Sori Nori ; 장난감 디자인</p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item cutery">
+                            <img src="images/work/design/cutery.png" alt="design-item">
+                            <div class="txt">
+                                <p>CUTERY ; 개인수저통 디자인 </p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="item steam-block">
+                            <img src="images/work/design/steam-block.png" alt="design-item">
+                            <div class="txt">
+                                <p>STEAM ; logo block</p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 기타 -->
+                    <div class="tab-content variable-width">
+                        <div class="item steam-block">
+                            <img src="images/work/design/steam-block.png" alt="design-item">
+                            <div class="txt">
+                                <p>STEAM ; logo block</p>
+                                <div class="hash">
+                                    <span># 3D Grapic</span>
+                                    <span># Product Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="publisher-content">
+                <div class="tabmenu">
+                    <ul>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">전체</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">웹디자인</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">앱디자인</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">인터랙션 디자인</a>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <a href="#">기타</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 작업물들 -->
+                <div class="tab-wrap">
+                    <!-- 전체 -->
+                    <div class="tab-content variable-width">
+                        <div class="item sidmool">
+                            <img src="images/work/publisher/sidmool.png" alt="publish-item">
+                            <div class="txt">
+                                <p>SIDMOOL_Redesign</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Cosmetic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item steam">
+                            <img src="images/work/publisher/steam.png" alt="publish-item">
+                            <div class="txt">
+                                <p>STEAM_Redesign</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Game</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item library">
+                            <img src="images/work/publisher/SeoulLibrary.png" alt="publish-item">
+                            <div class="txt">
+                                <p>서울도서관_Redesign</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Public</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item seosemistreet">
+                            <img src="images/work/publisher/seosemistreet.png" alt="publish-item">
+                            <div class="txt">
+                                <p>서세미스트리트 ; knit brand</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item app grooming">
+                            <img src="images/work/publisher/grooming.png" alt="publish-item">
+                            <div class="txt">
+                                <p>GROOMING</p>
+                                <div class="hash">
+                                    <span># App Design</span>
+                                    <span># Animals</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 웹 디자인 -->
+                    <div class="tab-content variable-width">
+                        <div class="item sidmool">
+                            <img src="images/work/publisher/sidmool.png" alt="publish-item">
+                            <div class="txt">
+                                <p>SIDMOOL_Redesign</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Cosmetic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item steam">
+                            <img src="images/work/publisher/steam.png" alt="publish-item">
+                            <div class="txt">
+                                <p>STEAM_Redesign</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Game</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item library">
+                            <img src="images/work/publisher/SeoulLibrary.png" alt="publish-item">
+                            <div class="txt">
+                                <p>도서관_Redesign</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Public</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item seosemistreet">
+                            <img src="images/work/publisher/seosemistreet.png" alt="publish-item">
+                            <div class="txt">
+                                <p>서세미스트리트 ; knit brand</p>
+                                <div class="hash">
+                                    <span># Web Design</span>
+                                    <span># Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 앱 디자인 -->
+                    <div class="tab-content variable-width">
+                        <div class="item app grooming">
+                            <img src="images/work/publisher/grooming.png" alt="publish-item">
+                            <div class="txt">
+                                <p>GROOMING</p>
+                                <div class="hash">
+                                    <span># App Design</span>
+                                    <span># Animals</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 인터랙션 디자인 -->
+                    <div class="tab-content variable-width"></div>
+                    <!-- 기타 -->
+                    <div class="tab-content variable-width"></div>
+
+                    <!-- 스크롤 바 -->
+                    <!-- <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                        <span class="slider__label sr-only"></span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 모달창 -->
+        <div class="process">
+            <div class="process-wrap">
+                <div class="process-title">
+                    <div class="process-title-wrap">
+                        <div class="txt">
+                            <div class="txt-detail">
+                                <span id="work-date">2022.08.10 ~ 2022.08.20</span>
+                                <span id="contribution">디자인, 기획 : 100%</span>
+                            </div>
+                            <h3 id="process-title">PROCESSER ; 양구아스파라거스 액상차</h3>
+                        </div>
+                        <div class="modal-btn">
+                            <ul>
+                                <!-- 퍼블 모드에서만 켜지기 -->
+                                <li id="origin">
+                                    <a href="#" target="_blank">Origin Site</a>
+                                </li>
+                                <li id="redesign">
+                                    <a href="#" target="_blank">Redesign Site</a>
+                                </li>
+                                <!-- 전체 버튼 -->
+                                <li id="close">
+                                    <div class="process-line"></div>
+                                <div class="process-line"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="process-content">
+                    <img id="process" src="images/work/design/process/juice-process.jpg" alt="process">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2022. KIM NA HYEON. All Right Reserved</p>
+    </div>
+
+    <!-- (공통)마우스 메뉴 -->
+    <div class="mouse-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="work.html">WORK</span></a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+$main-color : rgb(224,82,46);
+$point-font: 'Titan One', cursive;
+
+.header{
+    width: 100%; height: 125px;
+    display: flex;
+    position: absolute;
+    // background-color: #aaa;
+    
+    .logo{
+        flex-basis: 10.1%; height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        // background-color: salmon;
+
+        img{
+            display: block;
+            // font-size: 0;
+        }
+    }
+}
+
+.contact{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 227px;
+    // background-color: #aaa;
+    img{
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.sns{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 608px;
+    .sns-wrap{
+        display: flex;
+        justify-content: space-between;
+        width: 833px;
+        margin: 0 auto;
+        a{
+            width: 120px; height: 120px;
+            border-radius: 60px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            img{transition: 0.5s;}
+        }
+        a:hover img{
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+    .header{
+        .logo{
+            flex-basis: 12%;
+        }
+    }
+
+    .contact{
+        margin-top: 300px;
+
+        img{
+            width: 550px;
+        }
+    }
+
+    .sns{
+        top: 650px;
+        .sns-wrap{
+            width: 600px;
+            a{
+                width: 100px; height: 100px;
+                img{width: 100%; height: 100%;}
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .header{
+        .logo{
+            img{margin-left: 40px;}
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .header{
+        .logo{
+            align-items: center;
+            img{
+                margin-left: 10px;
+                width: 90px;
+            }
+        }
+    }
+    .contact{
+        margin-top: 250px;
+        img{width: 400px;}
+    }
+
+    .sns{
+        top: 500px;
+        .sns-wrap{
+            width: 380px;
+            a{
+                width: 60px; height: 60px;
+                img{width: 100%; height: 100%;}
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .header{
+        height: 90px;
+        .logo{
+            img{width: 80px;}
+        }
+    }
+    .contact{
+        margin-top: 200px;
+        img{width: 300px;}
+    }
+    .sns{
+        top: 400px;
+        .sns-wrap{
+            width: 320px;
+        }
+    }
+}

@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+$main-color : #FFAE52;
+$base-color : #fff;
+$point-font : 'Titan One', cursive;
+$title-fz : 30px;
+
+// 공통 사항
+body[data-dark="true"]{background-color: rgb(14,30,55);}
+span[data-dark="true"]{color: $base-color;}
+.nav[data-dark="true"]{
+    .ham{
+        .line{
+            background-color: $main-color;
+        }
+    }
+    .menu{
+        background-color: rgb(39,52,71);
+        ul{
+            li{
+                a,span{color: $main-color;}
+            }
+            li:hover{
+                a, span{
+                    border-bottom: 4px solid $main-color;
+                }
+            }
+        }
+    }
+}
+// 공통 전환 버튼
+.btn[data-dark="true"]{
+    .box{
+        border: 1px solid #fff;
+        .circle{
+            background-color: $main-color;
+            transform: translateX(49px);
+        }
+    }
+}
+
+// index-dark
+.main-btn[data-dark="true"]{
+    .txt{
+        p{color: $main-color;}
+    }
+    .design-btn{
+        .circle{
+            background-color: $main-color;
+            position: absolute;
+            // right: 4px;
+            transform: translateX(190px);
+        }
+    }
+}
+
+// about-dark
+.wrap[data-dark="true"]{
+    p{color: $base-color;}
+    .me, .now, .vision{
+        .header{
+            .title{
+                span{color: $main-color;}
+            }
+        }
+    }
+    .me{
+        .point-txt{
+            .point-wrap{
+                .skill{background-color: $main-color;}
+                .txt{
+                    p{
+                        color: $main-color;
+                        span{color: $main-color;}
+                    }
+                }
+            }
+        }
+        .total-content{
+            .skill{
+                span{color: $main-color;}
+            }
+        }
+    }
+    .total-content{
+        .content-wrap{
+            .skill, .edu, .tool, .awards, .activity{
+                .data{color: $main-color;}
+            }
+        }
+    }
+    .scroll-mouse[data-dark="true"]{
+        #mouse-red{display: none;}
+        #mouse-yellow{display: block;}
+    }
+}
+
+
+// work
+.wrap-work[data-dark="true"]{
+    .header{
+        .title{
+            p{color: $main-color;}
+        }
+        .job-tab{
+            ul{
+                li#d-tab{
+                    a{color: $base-color;}
+                }
+                li#d-tab:hover{
+                    a{color: rgb(224,82,46);}
+                }
+                li#p-tab{
+                    a{color: $main-color;}
+                }
+                li#tab-line{border-right: 2px solid $main-color;}
+            }
+        }
+    }
+    .process{
+        .process-wrap{
+            .process-title{
+                .process-title-wrap{
+                    .txt{
+                        span{color: #000;}
+                    }
+                    .modal-btn{
+                        ul{
+                            justify-content: space-between;
+                            #origin{display: block;}
+                            #redesign{display: block;}
+                            #close:hover{
+                                .process-line{background-color: $main-color;}
+                            }
+                        }
+                    }
+                }
+            }
+            .process-content{
+                &::-webkit-scrollbar-thumb{
+                    // 스크롤바 색상
+                    background-color: $main-color;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+// 공통
+.footer[data-dark="true"]{
+    p{color: $base-color}
+}
+.mouse-menu[data-dark="true"]{
+    background-color: #273447;
+    ul{
+        li{
+            a{color: $main-color;}
+        }
+        li:hover{background-color: $main-color;}
+    }
+}
+
+// @media screen and (max-width: 1280px) {
+
+// }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    
+    .main-btn[data-dark=true]{
+        .design-btn{
+            .circle{
+                transform: translateX(161px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrap-work[data-dark="true"]{      
+        .job-content{
+            .designer-content,
+            .publisher-content{
+                .tabmenu{
+                    ul{
+                        li{
+                            a{font-size: 17px;}
+                        }
+                        li:hover{
+                            border-bottom: 2px solid $main-color;
+                            a{color: $main-color; font-weight: bold;}
+                        }
+                        li.on{
+                            border-bottom: 2px solid $main-color;
+                            a{color: $main-color; font-weight: bold;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-btn[data-dark=true]{
+        .design-btn{
+            .circle{
+                transform: translateX(130px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .btn[data-dark=true]{
+        .box{
+            .circle{
+                transform: translateX(35px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    // home
+    .design-btn[data-dark=true]{
+        .circle{
+            transform: translateX(110px) !important;
+        }
+    }
+
+    // common
+    .btn[data-dark="true"]{
+        .box{
+            .circle{
+                transform: translateX(40px);
+            }
+        }
+    }
+}

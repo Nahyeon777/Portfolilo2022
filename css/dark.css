@@ -1,0 +1,160 @@
+body[data-dark=true] {
+  background-color: rgb(14, 30, 55);
+}
+
+span[data-dark=true] {
+  color: #fff;
+}
+
+.nav[data-dark=true] .ham .line {
+  background-color: #FFAE52;
+}
+.nav[data-dark=true] .menu {
+  background-color: rgb(39, 52, 71);
+}
+.nav[data-dark=true] .menu ul li a, .nav[data-dark=true] .menu ul li span {
+  color: #FFAE52;
+}
+.nav[data-dark=true] .menu ul li:hover a, .nav[data-dark=true] .menu ul li:hover span {
+  border-bottom: 4px solid #FFAE52;
+}
+
+.btn[data-dark=true] .box {
+  border: 1px solid #fff;
+}
+.btn[data-dark=true] .box .circle {
+  background-color: #FFAE52;
+  transform: translateX(49px);
+}
+
+.main-btn[data-dark=true] .txt p {
+  color: #FFAE52;
+}
+.main-btn[data-dark=true] .design-btn .circle {
+  background-color: #FFAE52;
+  position: absolute;
+  transform: translateX(190px);
+}
+
+.wrap[data-dark=true] p {
+  color: #fff;
+}
+.wrap[data-dark=true] .me .header .title span, .wrap[data-dark=true] .now .header .title span, .wrap[data-dark=true] .vision .header .title span {
+  color: #FFAE52;
+}
+.wrap[data-dark=true] .me .point-txt .point-wrap .skill {
+  background-color: #FFAE52;
+}
+.wrap[data-dark=true] .me .point-txt .point-wrap .txt p {
+  color: #FFAE52;
+}
+.wrap[data-dark=true] .me .point-txt .point-wrap .txt p span {
+  color: #FFAE52;
+}
+.wrap[data-dark=true] .me .total-content .skill span {
+  color: #FFAE52;
+}
+.wrap[data-dark=true] .total-content .content-wrap .skill .data, .wrap[data-dark=true] .total-content .content-wrap .edu .data, .wrap[data-dark=true] .total-content .content-wrap .tool .data, .wrap[data-dark=true] .total-content .content-wrap .awards .data, .wrap[data-dark=true] .total-content .content-wrap .activity .data {
+  color: #FFAE52;
+}
+.wrap[data-dark=true] .scroll-mouse[data-dark=true] #mouse-red {
+  display: none;
+}
+.wrap[data-dark=true] .scroll-mouse[data-dark=true] #mouse-yellow {
+  display: block;
+}
+
+.wrap-work[data-dark=true] .header .title p {
+  color: #FFAE52;
+}
+.wrap-work[data-dark=true] .header .job-tab ul li#d-tab a {
+  color: #fff;
+}
+.wrap-work[data-dark=true] .header .job-tab ul li#d-tab:hover a {
+  color: rgb(224, 82, 46);
+}
+.wrap-work[data-dark=true] .header .job-tab ul li#p-tab a {
+  color: #FFAE52;
+}
+.wrap-work[data-dark=true] .header .job-tab ul li#tab-line {
+  border-right: 2px solid #FFAE52;
+}
+.wrap-work[data-dark=true] .process .process-wrap .process-title .process-title-wrap .txt span {
+  color: #000;
+}
+.wrap-work[data-dark=true] .process .process-wrap .process-title .process-title-wrap .modal-btn ul {
+  justify-content: space-between;
+}
+.wrap-work[data-dark=true] .process .process-wrap .process-title .process-title-wrap .modal-btn ul #origin {
+  display: block;
+}
+.wrap-work[data-dark=true] .process .process-wrap .process-title .process-title-wrap .modal-btn ul #redesign {
+  display: block;
+}
+.wrap-work[data-dark=true] .process .process-wrap .process-title .process-title-wrap .modal-btn ul #close:hover .process-line {
+  background-color: #FFAE52;
+}
+.wrap-work[data-dark=true] .process .process-wrap .process-content::-webkit-scrollbar-thumb {
+  background-color: #FFAE52;
+  border-radius: 10px;
+}
+
+.footer[data-dark=true] p {
+  color: #fff;
+}
+
+.mouse-menu[data-dark=true] {
+  background-color: #273447;
+}
+.mouse-menu[data-dark=true] ul li a {
+  color: #FFAE52;
+}
+.mouse-menu[data-dark=true] ul li:hover {
+  background-color: #FFAE52;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .main-btn[data-dark=true] .design-btn .circle {
+    transform: translateX(161px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrap-work[data-dark=true] .job-content .designer-content .tabmenu ul li a,
+.wrap-work[data-dark=true] .job-content .publisher-content .tabmenu ul li a {
+    font-size: 17px;
+  }
+  .wrap-work[data-dark=true] .job-content .designer-content .tabmenu ul li:hover,
+.wrap-work[data-dark=true] .job-content .publisher-content .tabmenu ul li:hover {
+    border-bottom: 2px solid #FFAE52;
+  }
+  .wrap-work[data-dark=true] .job-content .designer-content .tabmenu ul li:hover a,
+.wrap-work[data-dark=true] .job-content .publisher-content .tabmenu ul li:hover a {
+    color: #FFAE52;
+    font-weight: bold;
+  }
+  .wrap-work[data-dark=true] .job-content .designer-content .tabmenu ul li.on,
+.wrap-work[data-dark=true] .job-content .publisher-content .tabmenu ul li.on {
+    border-bottom: 2px solid #FFAE52;
+  }
+  .wrap-work[data-dark=true] .job-content .designer-content .tabmenu ul li.on a,
+.wrap-work[data-dark=true] .job-content .publisher-content .tabmenu ul li.on a {
+    color: #FFAE52;
+    font-weight: bold;
+  }
+  .main-btn[data-dark=true] .design-btn .circle {
+    transform: translateX(130px);
+  }
+}
+@media screen and (max-width: 550px) {
+  .btn[data-dark=true] .box .circle {
+    transform: translateX(35px);
+  }
+}
+@media screen and (max-width: 375px) {
+  .design-btn[data-dark=true] .circle {
+    transform: translateX(110px) !important;
+  }
+  .btn[data-dark=true] .box .circle {
+    transform: translateX(40px);
+  }
+}/*# sourceMappingURL=dark.css.map */
