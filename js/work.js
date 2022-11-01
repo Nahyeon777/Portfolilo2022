@@ -39,7 +39,7 @@ $(document).ready(function () {
         speed: 300,
         slidesToShow: 1,
         variableWidth: true,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover:true,
         draggable : true,
@@ -103,8 +103,8 @@ $(document).ready(function () {
 
             // 퍼블 프로세스
             "./images/work/publisher/process/sidmool.jpg",
-            "./images/work/design/process/ex.png",
-            "./images/work/design/process/ex.png",
+            "./images/work/publisher/process/steam.jpg",
+            "./images/work/publisher/process/seoul.jpg",
             "./images/work/design/process/ex.png",
             "./images/work/publisher/process/grooming.jpg",
         ]
@@ -227,6 +227,7 @@ $(document).ready(function () {
             $("#origin a").text("Origin Site")
             $("#origin a").attr("href", "https://www.sidmool.com/")
             $("#redesign a").text("Redesign Site")
+            $("#redesign a").attr("href", "https://nahyeon777.github.io/Redesign_sidmool/")
         });
 
         // steam
@@ -234,7 +235,7 @@ $(document).ready(function () {
             e.preventDefault();
             
             $("#origin a").attr("href", "https://store.steampowered.com/")
-            $("#work-date").text("2022.00.00 ~ 2022.00.00")
+            $("#work-date").text("2022.10.14 ~ 2022.10.25")
             $("#contribution").text("디자인, 코딩 : 100%")
             $("#process-title").text(title_h3[12]) 
             $("#process").attr("src", designer_content_img[12])
